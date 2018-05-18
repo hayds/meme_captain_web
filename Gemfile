@@ -30,7 +30,6 @@ gem 'rails', '~> 5.1', '>= 5.1.2'
 gem 'remote_syslog_logger', '~> 1.0', '>= 1.0.3'
 gem 'rmagick', '~> 2.16'
 gem 'rubocop', '~> 0.50.0', require: false
-gem 'sqlite3', '~> 1.3', '>= 1.3.13'
 gem 'statsd-instrument', '~> 2.1', '>= 2.1.4'
 gem 'textacular', '~> 5.0', '>= 5.0.1'
 gem 'therubyracer', '~> 0.12.3'
@@ -55,6 +54,7 @@ group :test do
 end
 
 group :test, :development do
+  gem 'sqlite3', '~> 1.3', '>= 1.3.13'
   gem 'capybara', '~> 2.12', '>= 2.12.1'
   gem 'capybara-webkit', '~> 1.12'
   gem 'coffeelint', '~> 1.16'

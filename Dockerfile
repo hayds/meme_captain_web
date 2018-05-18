@@ -1,5 +1,5 @@
 FROM mm62/meme-captain-web-deps
-MAINTAINER matthewm@boedicker.org
+MAINTAINER hadyndickson@gmail.com
 
 COPY . /app
 
